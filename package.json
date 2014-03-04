@@ -1,0 +1,23 @@
+{
+  "name": "easyjson",
+  "version": "0.0.0",
+  "description": "An easy way to read/write/add datas with json file with some extension.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tinple/easyjson"
+  },
+  "keywords": [
+    "easy",
+    "json"
+  ],
+  "author": "Tinple",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Tinple/easyjson/issues"
+  },
+  "homepage": "https://github.com/Tinple/easyjson"
+}
