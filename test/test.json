@@ -1,6 +1,12 @@
 {
 	"project": "easyjson",
 	"version": "0.0.0",
-	"author": "Tinple",
-	"email": "htinple@gmail.com"
+	"author": {
+		"name": "Tinple",
+		"email": "htinple@gmail.com"
+	},
+	"files": [
+		"index.js"
+	],
+	"repo": "https://github.com/Tinple/easyjson"
 }
