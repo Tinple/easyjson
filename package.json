@@ -1,7 +1,7 @@
 {
   "name": "easyjson",
-  "version": "0.0.0",
-  "description": "An easy way to read/write/add datas with json file with some extension.",
+  "version": "0.0.1",
+  "description": "An easy way to manipulate JSON file with add/delete/modify/get json data.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,7 +14,11 @@
     "easy",
     "json"
   ],
-  "author": "Tinple",
+  "author": {
+    "name": "Tinple",
+    "email": "htinple@gmail.com"
+  },
+  "readmeFilename": "Readme.md",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Tinple/easyjson/issues"

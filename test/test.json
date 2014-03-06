@@ -1,12 +1,13 @@
 {
-	"project": "easyjson",
-	"version": "0.0.0",
-	"author": {
-		"name": "Tinple",
-		"email": "htinple@gmail.com"
-	},
-	"files": [
-		"index.js"
-	],
-	"repo": "https://github.com/Tinple/easyjson"
+    "project": "EasyJSON",
+    "author": {
+        "name": "Tinple",
+        "email": "htinple@gmail.com",
+        "blog": "http://tinple.me"
+    },
+    "files": [
+        "index.js"
+    ],
+    "repo": "https://github.com/Tinple/easyjson",
+    "license": "MIT"
 }
