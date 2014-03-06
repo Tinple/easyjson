@@ -31,7 +31,7 @@ var easyjson = require('easyjson');
 easyjson.path('test')
 		.add('license', 'MIT')
 		.express()
-		//the third argument specify where you add
+		//specify blog is under author which is a object 
 		.add('blog', 'http://tinple.me', 'author')  
 		.express()
 		.del('version')
