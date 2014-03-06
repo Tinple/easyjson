@@ -1,6 +1,6 @@
 {
   "name": "easyjson",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An easy way to manipulate JSON file with add/delete/modify/get json data.",
   "main": "index.js",
   "scripts": {
