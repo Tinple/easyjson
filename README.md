@@ -79,12 +79,12 @@ easyjson.add('files', 'path.json');
 // it will delete whole friend object, the same as array
 easyjson.del('author[friend]');
 
-// modify the `path.json` key in files, the same as obj
-easyjson.modify('files[path.json]', 'path2.json');
+// modify the array, only index support 
+easyjson.modify('files[0]', 'path2.json');
 
-// array also support index and has high priority
-// "files": [1, 2] => "files": [1, 1]
-easyjson.modify('files[1]', '1');
+// modify the obj key
+easyjson.modify('author[friend]', 'Panda');
+
 ```
 
 ## Warning
