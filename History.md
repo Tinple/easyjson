@@ -1,4 +1,9 @@
 
+0.1.0 / 2014-05-14
+==================
+
+  * Finish full feature, support manipulating nested data
+
 0.0.2 / 2014-03-06
 ==================
 
