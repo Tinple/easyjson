@@ -22,8 +22,8 @@
             "name": "Tinple",
             "girl": "Kristine",
             "test": {
-                "bdd": "mocha",
-                "bdd": "should"
+                "BDDTDD": "mocha",
+                "BDD": "should"
             }
         },
         "easyjson.js"
