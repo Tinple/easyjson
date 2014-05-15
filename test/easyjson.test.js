@@ -2,7 +2,7 @@ var should = require('should'),
 	easyjson = require('../');
 
 describe('easy json', function () {
-	path = easyjson.path('test');
+	path = easyjson.path('./test');
 	
 	it('Should get a item', function (done) {
 		var version = path.get('version'),
