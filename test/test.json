@@ -4,7 +4,7 @@
     "author": {
         "name": "Tinple",
         "contact": {
-            "email": "htinple@gmail.com",
+            "email": "htinple@gmail.com"
         },
         "pet": [
             {
@@ -28,5 +28,5 @@
         },
         "easyjson.js"
     ],
-    "repo": "https://github.com/Tinple/easyjson",
+    "repo": "https://github.com/Tinple/easyjson"
 }
