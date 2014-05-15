@@ -1,12 +1,32 @@
 {
-    "version": "0.0.1",
+    "version": "0.1.1",
     "project": "easyjson",
     "author": {
         "name": "Tinple",
-        "email": "htinple@gmail.com"
+        "contact": {
+            "email": "htinple@gmail.com",
+        },
+        "pet": [
+            {
+                "name": "timi",
+                "age": 6
+            },
+            {
+                "name": "lucy",
+                "age": 3
+            }
+        ]
     },
     "files": [
-        "index.js"
+        {
+            "name": "Tinple",
+            "girl": "Kristine",
+            "test": {
+                "bdd": "mocha",
+                "bdd": "should"
+            }
+        },
+        "easyjson.js"
     ],
-    "repo": "https://github.com/Tinple/easyjson"
+    "repo": "https://github.com/Tinple/easyjson",
 }
