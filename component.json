@@ -1,0 +1,9 @@
+{
+  "name": "easyjson",
+  "repo": "Tinple/easyjson",
+  "description": "An easy way to express/add/modify/delete item with json file",
+  "version": "0.1.2",
+  "main": "index.js",
+  "scripts": ["index.js", "lib/easyjson.js"],
+  "license": "MIT"
+}
