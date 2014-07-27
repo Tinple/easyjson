@@ -8,6 +8,12 @@
 $ npm install easyjson
 ```
 
+Or
+
+```
+$ component install Tinple/easyjson
+```
+
 ## EasyJSON
 
   With `EasyJSON` you can simply invoke the exported function to manipulate JSON file.
