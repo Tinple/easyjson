@@ -1,6 +1,6 @@
 {
   "name": "easyjson",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "description": "An easy way to manipulate JSON file with add/delete/modify/get json data, support nested data.",
   "main": "index.js",
   "scripts": {
