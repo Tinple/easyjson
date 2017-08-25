@@ -107,6 +107,83 @@ easyjson.modify('author[friend][name]', 'Panda');
 easyjson.add('author[friend][0][name]', 'Kristine');
 ```
 
+## Simpler examples
+
+   to get started:
+
+```js
+// string
+easyjson.add('stringKey', 'stringValue');
+
+// object
+easyjson.add('objectKey[objectSubkey1]', 'ok');
+easyjson.add('anotherObjectKey[objectSubkey1]', 'ok');
+// --
+easyjson.add('yetAnotherObjectKey[objectSubkey1]', 'ok');
+easyjson.del('yetAnotherObjectKey[objectSubkey1]');
+easyjson.del('yetAnotherObjectKey');
+// --
+easyjson.add('keyA[keyB][keyC]', 'ok');
+easyjson.modify('keyA[keyB][keyC]', 'ok2');
+// --
+
+// arrays
+easyjson.add('arrayKey[0][arraySubkey1]', 'ok');
+easyjson.add('arrayKey[1][arraySubkey1]', 'ok');
+easyjson.add('anotherArrayKey[0][arraySubkey1]', 'ok');
+// --
+easyjson.add('yetAnotherArrayKey[0][arraySubkey1]', 'ok2');
+easyjson.del('yetAnotherArrayKey[0][arraySubkey1]');
+easyjson.del('yetAnotherArrayKey[0]');
+easyjson.del('yetAnotherArrayKey');
+// --
+easyjson.add('keyArrA[0][keyArrB][0][keyArrC]', 'ok');
+easyjson.modify('keyArrA[0][keyArrB][0][keyArrC]', 'ok2');
+// --
+
+/**
+ * {
+ *     "stringKey": "stringValue",
+ *     "objectKey": {
+ *         "objectSubkey1": "ok"
+ *     },
+ *     "anotherObjectKey": {
+ *         "objectSubkey1": "ok"
+ *     },
+ *     "keyA": {
+ *         "keyB": {
+ *             "keyC": "ok2"
+ *         }
+ *     },
+ *     "arrayKey": [
+ *         {
+ *             "arraySubkey1": "ok"
+ *         },
+ *         {
+ *             "arraySubkey1": "ok"
+ *         }
+ *     ],
+ *     "anotherArrayKey": [
+ *         {
+ *             "arraySubkey1": "ok"
+ *         }
+ *     ],
+ *     "keyArrA": [
+ *         {
+ *             "keyArrB": [
+ *                 {
+ *                     "keyArrC": "ok2"
+ *                 }
+ *             ]
+ *         }
+ *     ]
+ * }
+ */
+ 
+```
+
+
+
 ## Warning
   `EasyJSON` will do nothing when you pass a nonexistent
   key to `modify()` and `del()`. As for `add(key, value)`, `EasyJSON` will judge whether the key exists firstly. If not, it will added normally. 
